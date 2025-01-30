@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3Schools-Like Tutorial</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            min-height: 100vh;
+        }
+
+        /* Sidebar Styling */
+        .sidebar {
+            width: 250px;
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+        }
+
+        .sidebar h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .sidebar ul {
+            list-style-type: none;
+        }
+
+        .sidebar ul li {
+            margin: 10px 0;
+        }
+
+        .sidebar ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .sidebar ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Content Styling */
+        .content {
+            margin-left: 270px;
+            padding: 20px;
+            width: calc(100% - 270px);
+        }
+
+        h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            color: #444;
+        }
+
+        pre {
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            font-size: 16px;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        button {
+            padding: 8px 12px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Sidebar Navigation -->
+    <div class="sidebar">
+        <h2>Tutorials</h2>
+        <ul>
+            <li><a href="#html">HTML</a></li>
+            <li><a href="#css">CSS</a></li>
+            <li><a href="#js">JavaScript</a></li>
+            <li><a href="#python">Python</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="content">
+        <!-- HTML Section -->
+        <section id="html">
+            <h2>HTML Tutorial</h2>
+            <p>HTML stands for Hyper Text Markup Language. It is the standard language for creating web pages.</p>
+            <h3>HTML Syntax</h3>
+            <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;&lt;/head&gt;
+    &lt;body&gt;&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+            <button onclick="alert('Try it Yourself!')">Try it Yourself</button>
+        </section>
+
+        <!-- CSS Section -->
+        <section id="css">
+            <h2>CSS Tutorial</h2>
+            <p>CSS is a language used to describe the style of HTML elements.</p>
+            <h3>CSS Syntax</h3>
+            <pre><code>body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+}</code></pre>
+            <button onclick="alert('Try it Yourself!')">Try it Yourself</button>
+        </section>
+
+        <!-- JavaScript Section -->
+        <section id="js">
+            <h2>JavaScript Tutorial</h2>
+            <p>JavaScript is a programming language used to create dynamic content on websites.</p>
+            <h3>JavaScript Syntax</h3>
+            <pre><code>function sayHello() {
+    alert('Hello, world!');
+}</code></pre>
+            <button onclick="alert('Try it Yourself!')">Try it Yourself</button>
+        </section>
+
+        <!-- Python Section -->
+        <section id="python">
+            <h2>Python Tutorial</h2>
+            <p>Python is a popular programming language for web development, data science, and more.</p>
+            <h3>Python Syntax</h3>
+            <pre><code>def say_hello():
+    print("Hello, world!")</code></pre>
+            <button onclick="alert('Try it Yourself!')">Try it Yourself</button>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 W3Schools-like Tutorial. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
