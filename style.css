@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #efefef;
+    display: flex;
+    justify-content: center;
+    /* height: 100vh; */
+    align-items: center;
+}
+.div{
+    width: 80%;
+   
+
+
+}
+.navbar{
+    background-color: rgb(255, 253, 250);  
+
+}
